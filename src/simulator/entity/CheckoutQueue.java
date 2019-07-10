@@ -94,7 +94,7 @@ public class CheckoutQueue implements Runnable
 				{
 					//System.out.println( "Customer is being processed.." );
 					double tempTime = generator.getRandomDecimalNumberInRange( 0.5, 6 );
-					totalUtilizingTime += tempTime;
+					
 					long scanTime = ( long ) tempTime * 1000;
 					DecimalFormat df = new DecimalFormat( "#.##" );
 					// System.out.println( df.format( tempTime ) );
@@ -102,6 +102,7 @@ public class CheckoutQueue implements Runnable
 					try
 					{
 						Thread.sleep( scanTime );
+						totalUtilizingTime += tempTime;
 					}
 					catch ( InterruptedException e )
 					{

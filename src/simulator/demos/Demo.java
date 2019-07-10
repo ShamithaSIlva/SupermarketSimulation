@@ -11,7 +11,7 @@ import simulator.util.CustomerGenerator;
 import simulator.util.StatCalculator;
 
 /**
- * @author Pankaj Kumar Shee-18125638 
+ * @author Juliyanage Silva 18059546 
  * This class initiates the whole program. 
  */
 public class Demo

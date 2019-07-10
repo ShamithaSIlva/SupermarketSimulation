@@ -4,7 +4,7 @@ import simulator.demos.Demo;
 import simulator.entity.Customer;
 
 /**
- * @author Pankaj Kumar Shee-18125638 
+ * @author Juliyanage Silva 18059546 
  * This class generates Customers randomly after specified time period.
  */
 public class CustomerGenerator implements Runnable{
